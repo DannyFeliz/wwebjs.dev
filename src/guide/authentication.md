@@ -108,7 +108,7 @@ const SESSION_FILE_PATH = './session.json';
 
 // Load the session data if it has been previously saved
 let sessionData;
-if(fs.existsSync(SESSION_FILE_PATH)) {
+if (fs.existsSync(SESSION_FILE_PATH)) {
     sessionData = require(SESSION_FILE_PATH);
 }
 
